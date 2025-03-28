@@ -1,0 +1,66 @@
+body{
+    font-family:  'sans-serif';
+}
+.container {
+    height: 800px;
+    background-color: #f5f7f8;
+}
+
+.accordion-button{
+    background-color: #7d97a5 !important;
+
+}
+
+.accordion-button::after {
+    display: none;
+  }
+
+  
+.navbar {
+    height:90px;
+    background-color: #4d636f;
+   
+   
+}
+.mybutton {
+    background-color: #607d8b !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+.dns{
+    
+    height: 200px;
+}
+.custom-box {
+    display: flex;
+    align-items: center;
+    background-color:#dfe5e8; 
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    
+    border: 1px solid #a4a9ac;
+}
+.close-btn {
+    background:#becbd2;
+    border: 1px solid #a4a9ac; ;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #080606;
+}
+footer{
+    background-color: #4d636f;
+    height: 100px;
+    color: white;
+    text-align: center;
+  
+}
+.main{
+    margin-top: 100px !important;
+
+}
